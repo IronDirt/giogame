@@ -1,0 +1,68 @@
+html {background-color: #0d0d0d;}
+
+#sopra {
+	background-image: url(https://images5.alphacoders.com/527/527241.jpg);
+	background-size: cover;
+	padding-bottom: 23%;
+	margin-bottom: -170px;
+}
+
+body{
+   background-color: #1a1a1a;
+   text-align: center;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+h1{
+   font-size:40px;
+   line-height: 0px;
+   font-family: Arial, sans-serif;
+   color: #008fb3;
+} 
+h3{
+   font-size: 20px;
+   color: #999999;
+   font-family: Andale Mono, monospace, Arial, sans-serif;
+   letter-spacing: -1.5px;
+}
+
+#fotoloris {
+	width: 250px;
+}
+
+#sotto {
+	background-color: #008fb3;
+	padding-bottom: 10px;
+   margin-top: 20px;
+}
+
+
+#downloadcv img{
+   width: 200px;
+   transition: transform .2s;
+}
+
+#downloadcv img:hover{
+   transform: scale(1.05);
+}
+
+
+@media only screen and (max-device-width: 480px) {
+#sopra {
+   padding-bottom: 30%;
+   margin-bottom: -270px;
+}
+#fotoloris {
+   width: 400px;
+}
+h1{
+   font-size:65px;
+} 
+h3{
+   font-size: 35px;
+}
+#downloadcv img{
+   width: 500px;
+}
+}
